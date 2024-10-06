@@ -6,7 +6,7 @@ import LoginPage from './views/LoginPage.vue'
 import SettingsPage from './views/SettingsPage.vue'
 
 import { useAuth } from './composables/useAuth'
-const
+const {isAuthenticated} = useAuth()
 
 // routes and paths of each page.
 const routes = [
